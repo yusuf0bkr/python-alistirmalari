@@ -1,0 +1,5 @@
+k = int(input('birinci sayiyi giriniz: '))
+l = int(input('ikinci sayiyi giriniz: '))
+print('k:{} ve l:{}'.format(k,l))
+(k,l) = (l,k)
+print('k:{} ve l:{}'.format(k,l))
