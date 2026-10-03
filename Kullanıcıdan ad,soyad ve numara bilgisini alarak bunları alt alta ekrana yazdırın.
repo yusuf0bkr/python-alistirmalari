@@ -1,0 +1,7 @@
+ad = input('Adiniz: ')
+soyad = input('Soyadiniz: ')
+numara = int(input('Numaraniz: '))
+
+bilgiler = [ad,soyad,numara]
+
+print("Adiniz: {}\nSoyadiniz: {}\nNumaraniz: {}".format(bilgiler[0],bilgiler[1],bilgiler[2]))
