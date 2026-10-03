@@ -1,0 +1,4 @@
+a = int(input('dik kenarlardan birincisini giriniz: '))
+b = int(input('dik kenarlardan ikincisini giriniz: '))
+
+print('Hipotenüs uzunluğu : {}'.format((a**2+b**2)**0.5))
