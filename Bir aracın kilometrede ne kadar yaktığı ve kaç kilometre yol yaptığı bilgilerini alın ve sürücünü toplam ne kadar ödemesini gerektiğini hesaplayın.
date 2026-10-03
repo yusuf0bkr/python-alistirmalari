@@ -1,0 +1,4 @@
+ne_kadar_yakar = float(input("Aracın kilometre başına yaktığı yakıt miktarı: "))
+kaç_kilometre = float(input("Aracın kaç kilometre yol yaptığını giriniz: "))
+
+print("Ödemeniz gereken tutar: {}".format(ne_kadar_yakar * kaç_kilometre))
