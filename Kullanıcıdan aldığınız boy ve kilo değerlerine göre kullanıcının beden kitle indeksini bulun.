@@ -1,0 +1,6 @@
+boy = float(input("Lütfen boyunuzu giriniz: "))
+kilo = float(input("Lütfen kilonuzu giriniz: "))
+
+beden_kitle_endeksi = kilo / boy**2
+
+print("Beden kitle endeksiniz: {}".format(beden_kitle_endeksi))
