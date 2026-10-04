@@ -1,0 +1,11 @@
+def asal_mi(a):
+  if a<=1:
+    print("asal değil")
+  else:
+    for i in range(2,a//2+1):
+      if a%i==0:
+        print("asal değil")
+        return
+    print("asal")
+  
+asal_mi(int(input("Asal olup olmadığını kontrol etmek istediğin sayiyi gir: ")))
