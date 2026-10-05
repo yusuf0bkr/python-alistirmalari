@@ -1,0 +1,7 @@
+def cift_mi_tek_mi(x):
+  if x%2==0:
+    print("Sayi cifttir.")
+  else: 
+    print("Sayi tektir.")
+
+cift_mi_tek_mi(int(input("Bir tamsayi giriniz:")))
