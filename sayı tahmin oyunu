@@ -1,0 +1,36 @@
+# Sayı Tahmin Oyunu
+import random
+import time
+
+print("****************************************\nSayı Tahmin Oyunu\n1 ile 40 arasındaki sayıyı tahmin ediniz.\n****************************************")
+
+rastgele_sayi = random.randint(1,40)
+tahmin_hakki=7
+while True:
+
+  tahmin = int(input("Tahmininiz: "))
+
+  if(tahmin<rastgele_sayi):
+    print("Bilgiler sorgulanıyor.")
+    time.sleep(1)
+
+    print(f"Sayı {tahmin}'den büyük.")
+    tahmin_hakki-=1
+  
+  elif(tahmin>rastgele_sayi):
+    print("Bilgiler sorgulanıyor.")
+    time.sleep(1)
+
+    print(f"Sayı {tahmin}'den küçük.")
+    tahmin_hakki-=1
+  
+  else:
+    print("Bilgiler sorgulanıyor.")
+    time.sleep(1)
+    print("Tebrikler!!! Doğru tahmin")
+    break
+  
+  if(tahmin_hakki==0):
+    print("Tahmin hakkiniz bitti.")
+    print(f"Sayimiz: {rastgele_sayi}")
+    break
